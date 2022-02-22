@@ -25,6 +25,7 @@ Individual Data Environments
    data_acquisition/MordorData
    data_acquisition/DataProv-Sumologic
    data_acquisition/DataProv-Kusto
+   data_acquisition/DataProv-Cybereason
 
 
 Built-in Data Queries
@@ -46,3 +47,4 @@ Other Data Modules and Functions
    data_acquisition/DataMasking
    data_acquisition/AzureBlobStorage
    data_acquisition/SqlToKql
+   data_acquisition/CybereasonProvider
