@@ -146,8 +146,8 @@ _MP_SRC = "/src/microsoft/msticpy"
 
 def _run_tests():
     os.environ["MSTICPYCONFIG"] = f"{_MP_SRC}/tests/msticpyconfig-test.yaml"
-    os.environ["MAXMIND_AUTH"] = "fwX9fbj9srTpJpKA"
-    os.environ["IPSTACK_AUTH"] = "6ab9b0edbe908a17da4f9e69adc30611"
+    os.environ["MAXMIND_AUTH"] = "REDACTED"
+    os.environ["IPSTACK_AUTH"] = "REDACTED"
     sp_run = [
         "pytest",
         "-r",
